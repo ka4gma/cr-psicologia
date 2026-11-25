@@ -1,0 +1,103 @@
+{
+  "formacao": [
+    { "titulo": "Graduação em Psicologia", "detalhe": "Universidade de Fortaleza (UNIFOR)" },
+    { "titulo": "Pós-graduação em Psicomotricidade Relacional", "detalhe": "Centro Internacional de Análise Relacional (CIAR)" },
+    { "titulo": "Pós-graduação em TCC na Infância e Adolescência", "detalhe": "CTC VEDA" },
+    { "titulo": "Especialista em Análise do Comportamento Aplicada (ABA)", "detalhe": "Faculdade Unyleya · formação em implantação de ABA (CCS)" },
+    { "titulo": "Especialista em Autismo", "detalhe": "Faculdade Paulista de Serviço Social de São Caetano do Sul" },
+    { "titulo": "Formações complementares", "detalhe": "Terapia do Esquema, Avaliação Psicológica, Transtornos alimentares e Psicoterapia de Grupo" }
+  ],
+  "experiencia": [
+    { "area": "Clínica", "texto": "Atendimentos individuais e em grupo de psicoterapia, com base na Terapia Cognitivo-Comportamental." },
+    { "area": "Escolar", "texto": "Sessões de Psicomotricidade com crianças da Educação Infantil." },
+    { "area": "Hospitalar", "texto": "Atendimento a pacientes e familiares, e grupos operacionais com profissionais da área da saúde e mães de recém-nascidos internados na UTI Neonatal." },
+    { "area": "Orientação", "texto": "Orientação profissional e orientação de pais." },
+    { "area": "Grupos", "texto": "Grupos para o desenvolvimento do brincar funcional para crianças com Transtorno do Espectro do Autismo (TEA), grupos voltados para crianças com sobrepeso ou obesidade grau 1, e grupos de Psicomotricidade Relacional na clínica." }
+  ],
+  "experienciaClinica": ["Transtornos Globais do Desenvolvimento", "Transtornos alimentares e obesidade", "TDAH", "TOD", "TOC", "Ansiedade e depressão"],
+  "areas": [
+    {
+      "id": "infancia-adolescencia",
+      "titulo": "Infância e adolescência",
+      "resumo": "Psicoterapia cognitivo-comportamental com psicoeducação e jogos lúdicos, com atenção ao desenvolvimento e ao contexto escolar e familiar.",
+      "corpo": [
+        "O atendimento psicológico na infância e na adolescência usa a Terapia Cognitivo-Comportamental em forma de psicoterapia, para que a criança ou o adolescente entenda de forma clara a origem de seus comportamentos.",
+        "Por meio da psicoeducação, identificam-se os pensamentos disfuncionais que causam sentimentos ruins e comportamentos inadequados. Os jogos lúdicos permitem acessar questões que o paciente não expressa de forma natural."
+      ],
+      "mais": { "label": "Ver a página de psicologia infantil", "href": "/psicologia-infantil/" },
+      "wa": "atendimento na infância e adolescência"
+    },
+    {
+      "id": "autismo-aba",
+      "titulo": "Autismo e terapia ABA",
+      "resumo": "Especialização em Autismo e em Análise do Comportamento Aplicada (ABA), incluindo grupos para o desenvolvimento do brincar funcional em crianças com TEA.",
+      "corpo": [
+        "ABA significa Análise do Comportamento Aplicada (Applied Behavior Analysis). Segundo a Carolina, trata-se de uma linha teórica, e não de um método.",
+        "Para começar, realiza-se uma anamnese e entrevista com os pais e uma análise funcional da criança, observando os comportamentos a serem evidenciados e os que precisam ser remanejados. Cada programa é feito de forma personalizada, com folhas de registro para acompanhar a evolução."
+      ],
+      "mais": { "label": "Ler o artigo sobre Terapia ABA", "href": "/single-post/terapia-aba-em-fortaleza/" },
+      "wa": "autismo e terapia ABA"
+    },
+    {
+      "id": "orientacao-de-pais",
+      "titulo": "Orientação de pais",
+      "resumo": "O acompanhamento psicológico se estende à escola e à família, porque o processo alcança toda a rede de cuidado da criança e do adolescente.",
+      "corpo": [
+        "A psicologia infantil se estende à escola e aos familiares, tendo em vista que o tratamento precisa alcançar sua totalidade.",
+        "Em sua maioria, os encaminhamentos para o atendimento psicológico são feitos por professores, familiares ou médicos, quando a frequência de comportamentos inadequados é percebida de forma intensa."
+      ],
+      "mais": { "label": "Ler sobre limites e birra", "href": "/single-post/2017/10/09/birra/" },
+      "wa": "orientação de pais"
+    },
+    {
+      "id": "psicomotricidade-relacional",
+      "titulo": "Psicomotricidade Relacional",
+      "resumo": "Pós-graduação em Psicomotricidade Relacional, com sessões na Educação Infantil e grupos realizados na clínica.",
+      "corpo": [
+        "A Carolina é pós-graduada em Psicomotricidade Relacional pelo Centro Internacional de Análise Relacional (CIAR).",
+        "Sua experiência inclui sessões de Psicomotricidade com crianças da Educação Infantil e grupos de Psicomotricidade Relacional na clínica."
+      ],
+      "mais": { "label": "Ver formação e experiência", "href": "/sobre-mim/" },
+      "wa": "psicomotricidade relacional"
+    },
+    {
+      "id": "grupos",
+      "titulo": "Grupos",
+      "resumo": "Grupos de psicoterapia, de brincar funcional para crianças com TEA e para crianças com sobrepeso ou obesidade grau 1.",
+      "corpo": [
+        "Além dos atendimentos individuais, a experiência clínica inclui grupos de psicoterapia com base na Terapia Cognitivo-Comportamental."
+      ],
+      "mais": { "label": "Ver experiência completa", "href": "/sobre-mim/" },
+      "wa": "grupos"
+    }
+  ],
+  "midia": [
+    {
+      "id": "opovo",
+      "veiculo": "Jornal O Povo",
+      "titulo": "Como o vínculo familiar implica na personalidade da criança",
+      "data": "2017-11-14",
+      "dataLabel": "14 de novembro de 2017",
+      "href": "https://www20.opovo.com.br/app/revistas/social/2017/11/14/notrsocial,3681075/como-o-vinculo-familiar-implica-na-personalidade-da-crianca.shtml",
+      "img": "/img/midia-opovo.webp",
+      "alt": "Reportagem do jornal O Povo com a psicóloga Carolina Ramos"
+    },
+    {
+      "id": "diario",
+      "veiculo": "Diário do Nordeste",
+      "titulo": "Atendimento psicológico a autistas é paralisado em Fortaleza",
+      "data": null,
+      "dataLabel": null,
+      "href": "http://diariodonordeste.verdesmares.com.br/editorias/metro/atendimento-psicologico-a-autistas-e-paralisado-em-fortaleza-1.2061042",
+      "img": "/img/midia-diario.webp",
+      "alt": "Reportagem do Diário do Nordeste sobre atendimento psicológico a autistas"
+    }
+  ],
+  "fotos": [
+    { "id": "poltronas", "src": "/img/consultorio-poltronas.webp", "alt": "Sala de atendimento com duas poltronas, tapete e papel de parede de folhagens", "cap": "Sala de atendimento com poltronas e papel de parede de folhagens", "pos": "50% 50%" },
+    { "id": "reuniao", "src": "/img/consultorio-sala-reuniao.webp", "alt": "Sala com mesa de madeira, cadeiras e a marca da psicóloga iluminada na parede", "cap": "Sala com mesa de madeira e a marca da psicóloga na parede", "pos": "50% 50%" },
+    { "id": "apoio", "src": "/img/consultorio-apoio.webp", "alt": "Espaço de apoio com bancada clara, sofá e painel de madeira", "cap": "Espaço de apoio com bancada e sofá", "pos": "50% 62%" },
+    { "id": "corredor", "src": "/img/entorno-fachada.webp", "alt": "Corredor de acesso ao consultório, com iluminação natural", "cap": "Corredor de acesso ao consultório", "pos": "50% 50%" },
+    { "id": "calcada", "src": "/img/entorno-calcada.webp", "alt": "Calçada arborizada no entorno do consultório", "cap": "Entorno do consultório", "pos": "50% 40%" }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Escolha o mundo visual da Home",
+  "question": "A Home atual é a leitura padrão (creme, serifa, terracota, cards iguais). A rodada sorteou a Renda de Bilro. Mantenha, escolha outra ou sorteie de novo.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Renda de Bilro",
+      "kicker": "THE ROLL",
+      "lineage": "renda de bilro cearense: almofada, alfinetes, papelão picotado, fios trançados",
+      "thesis": "O cuidado como trama: criança, família e escola são três fios que se entrelaçam no mesmo desenho.",
+      "palette": ["#354A3D", "#F1ECE0", "#A7B49B", "#B9965B"],
+      "materials": ["pano verde de almofada", "fio de algodão cru", "alfinetes de latão", "papelão picotado"],
+      "viewport": "Almofada verde ocupa a dobra inteira: pontos de alfinete formam a grade, fios marfim se cruzam e trançam até virar o título; a foto dela entra como uma peça pregada ao pano.",
+      "risk": "Pode soar artesanal demais se o trançado não for desenhado com rigor geométrico.",
+      "raised": [
+        {"from": "challenger-flyer-wall", "raise": "Camadas que se revelam: cada seção expõe o fio da seguinte, sem repetir a mesma entrada."},
+        {"from": "challenger-oscilloscope", "raise": "Tudo medido por uma única grade de alfinetes, de modo que o desenho nunca perde o rigor."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "grade de alfinetes (fundo)", "x": 0, "y": 0, "w": 12, "h": 10},
+        {"label": "título trançado", "x": 0, "y": 2, "w": 7, "h": 4, "accent": true},
+        {"label": "foto pregada ao pano", "x": 8, "y": 1, "w": 4, "h": 7},
+        {"label": "fios cruzando", "x": 3, "y": 6, "w": 6, "h": 3},
+        {"label": "WhatsApp", "x": 0, "y": 8, "w": 3, "h": 1, "accent": true}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "label": "Uma Linha Só",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "o logo dela: perfil e borboleta em traço contínuo",
+      "thesis": "Uma única linha, a do logo, percorre a página e se desenha enquanto você rola.",
+      "palette": ["#9DB193", "#FFFFFF", "#354A3D", "#F4F1EA"],
+      "materials": ["verde sálvia chapado do logo", "traço branco contínuo", "script de assinatura"],
+      "viewport": "Campo de verde sálvia inteiro; a linha do logo se desenha ao lado do título e segue para baixo, ligando as seções.",
+      "risk": "Linha que se desenha ao rolar já é um recurso conhecido; só funciona com o traço dela, desenhado de verdade.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "campo sálvia", "x": 0, "y": 0, "w": 12, "h": 10},
+        {"label": "linha contínua", "x": 6, "y": 0, "w": 3, "h": 10, "accent": true},
+        {"label": "título", "x": 0, "y": 2, "w": 6, "h": 4},
+        {"label": "retrato", "x": 9, "y": 2, "w": 3, "h": 6}
+      ]}
+    },
+    {
+      "id": "challenger-starship",
+      "kind": "challenger",
+      "catalogId": "pop-culture-shelf-industrial-starship-terminal",
+      "label": "Terminal de Nave",
+      "verdict": "declined",
+      "lineage": "terminais de nave industrial",
+      "palette": ["#0B0F0B", "#6BFF8A", "#FFB000"],
+      "materials": ["fósforo verde", "painel sujo"],
+      "case": "Perde nas duas: pais não se reconhecem em um terminal e a mensagem fica fria.",
+      "kept": "Uma coisa por vez: o ritmo de revelar uma linha após a outra."
+    },
+    {
+      "id": "challenger-flyer-wall",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-torn-flyer-photocopy-wall",
+      "label": "Parede de Flyers",
+      "verdict": "declined",
+      "lineage": "parede de flyers rasgados",
+      "palette": ["#111111", "#E8FF3D", "#FF4FA3"],
+      "materials": ["fotocópia", "papel fluorescente"],
+      "case": "Perde nas duas: barulho visual não combina com acolhimento clínico.",
+      "kept": "Camadas que se revelam e deixam ver o que vem depois."
+    },
+    {
+      "id": "challenger-sneaker-boxes",
+      "kind": "challenger",
+      "catalogId": "textiles-weave-drape-fashion-sneaker-box-stacks",
+      "label": "Caixas de Tênis",
+      "verdict": "declined",
+      "lineage": "pilhas de caixas de tênis",
+      "palette": ["#D9561A", "#111111", "#FFFFFF"],
+      "materials": ["papelão laranja", "papel de seda"],
+      "case": "Perde nas duas: remete a loja e a produto, não a cuidado.",
+      "kept": "A etiqueta como índice: nome claro de cada área na ponta da caixa."
+    },
+    {
+      "id": "challenger-plankton",
+      "kind": "challenger",
+      "catalogId": "reefs-bioluminescent-nocturnal-plankton-wake-stars",
+      "label": "Plâncton Luminoso",
+      "verdict": "declined",
+      "lineage": "mar noturno bioluminescente",
+      "palette": ["#02060F", "#2EC8FF", "#8AF0FF"],
+      "materials": ["água escura", "luz viva"],
+      "case": "Perde nas duas: fundo preto e efeito de partículas não dizem acolhimento e atrasam a leitura.",
+      "kept": "O gesto deixa rastro: o que você toca continua visível por um instante."
+    },
+    {
+      "id": "challenger-oscilloscope",
+      "kind": "challenger",
+      "catalogId": "scientific-notation-oscilloscope-signal-bench",
+      "label": "Osciloscópio",
+      "verdict": "declined",
+      "lineage": "bancada de osciloscópio",
+      "palette": ["#050805", "#7CFF6B", "#3A3F3A"],
+      "materials": ["vidro CRT", "retícula gravada"],
+      "case": "Perde nas duas: tecnologia de medição não é a linguagem de quem procura uma psicóloga.",
+      "kept": "Toda a página medida por uma única grade."
+    },
+    {
+      "id": "challenger-bbs",
+      "kind": "challenger",
+      "catalogId": "medium-native-ansi-bbs-nightboard",
+      "label": "BBS em ANSI",
+      "verdict": "declined",
+      "lineage": "quadro de avisos ANSI",
+      "palette": ["#000000", "#00FFFF", "#FF00FF"],
+      "materials": ["texto em 16 cores", "caracteres de bloco"],
+      "case": "Perde nas duas: nostalgia de computador antigo não conversa com pais de crianças.",
+      "kept": "Saídas numeradas: caminhos curtos e explícitos até o contato."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "O padrão da categoria",
+    "thesis": "Site de psicologia limpo: fundo claro, serifa elegante, fotos da profissional e cards de serviços, no mais alto acabamento.",
+    "palette": ["#F7F5EF", "#354A3D", "#B98269"],
+    "materials": ["grade limpa", "foto da profissional"],
+    "viewport": "Título serifado à esquerda, retrato à direita, cards de áreas abaixo.",
+    "risk": "Indistinguível de qualquer outro site de psicologia; é a Home que você acabou de recusar."
+  },
+  "steer": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cr-psicologia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Site CR Psicologia e Saúde (Carolina Ramos). Gerador estático sem framework.",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node scripts/test-site.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "^5.2.0",
+    "@fontsource/gilda-display": "^5.2.0",
+    "@fontsource/herr-von-muellerhoff": "^5.2.0"
+  }
+}

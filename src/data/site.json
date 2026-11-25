@@ -1,0 +1,34 @@
+{
+  "name": "CR Psicologia e Saúde",
+  "person": "Carolina Ramos",
+  "role": "Psicóloga clínica",
+  "crp": "CRP 11/09406",
+  "siteUrl": "https://www.carolinaramospsi.com",
+  "whatsappNumber": "5585986224394",
+  "whatsappDefaultText": "Olá Carolina! Gostaria de mais informações sobre seu atendimento.",
+  "phoneDisplay": "(85) 98622-4394",
+  "email": "carolinaramospsi@gmail.com",
+  "address": {
+    "street": "Av. Washington Soares, 909",
+    "room": "Sala 65G",
+    "district": "Edson Queiroz",
+    "city": "Fortaleza",
+    "state": "CE",
+    "stateName": "Ceará",
+    "mapsQuery": "Av. Washington Soares, 909, Fortaleza, CE"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/carolinaramosneuropsi/",
+    "instagramHandle": "@carolinaramosneuropsi",
+    "facebook": "http://www.facebook.com/psicologacarolinaramos"
+  },
+  "nav": [
+    { "label": "Sobre mim", "href": "/sobre-mim/" },
+    { "label": "Atuação", "href": "/atuacao/" },
+    { "label": "Psicologia infantil", "href": "/psicologia-infantil/" },
+    { "label": "Fotos", "href": "/fotos/" },
+    { "label": "Na mídia", "href": "/entrevista/" },
+    { "label": "Blog", "href": "/blog/" },
+    { "label": "Contato", "href": "/contato/" }
+  ]
+}
