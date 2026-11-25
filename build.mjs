@@ -15,6 +15,14 @@ import { post } from './src/pages/post.js';
 import { contato, notFound } from './src/pages/contato.js';
 
 const root = dirname(fileURLToPath(import.meta.url));
+// BASE: prefixo para hospedagem em subpasta (ex.: GitHub Pages /cr-psicologia). NOINDEX=1 bloqueia indexação (cópia de homologação).
+const BASE = (process.env.BASE || '').replace(/\/$/, '');
+const NOINDEX = process.env.NOINDEX === '1';
+const withBase = (html) => {
+  let out = BASE ? html.replace(/(href|src)="\/(?!\/)/g, `$1="${BASE}/`) : html;
+  if (NOINDEX && !out.includes('name="robots"')) out = out.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="robots" content="noindex">');
+  return out;
+};
 const dist = join(root, 'dist');
 for (const f of existsSync(dist) ? readdirSync(dist) : []) rmSync(join(dist, f), { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
@@ -37,12 +45,12 @@ const pages = [
   ['/contato/', contato()],
   ...posts.map((p, i) => [p.path + '/', post(p, i)]),
 ];
-for (const [url, html] of pages) write(url === '/' ? 'index.html' : join(url, 'index.html'), html);
-write('404.html', notFound());
+for (const [url, html] of pages) write(url === '/' ? 'index.html' : join(url, 'index.html'), withBase(html));
+write('404.html', withBase(notFound()));
 
 // --- estilos e scripts ---
 const css = ['site.css', 'pages.css'].map((f) => readFileSync(join(root, 'src/styles', f), 'utf8')).join('\n');
-write('assets/site.css', fontCss + '\n' + css);
+write('assets/site.css', (BASE ? fontCss.replaceAll('url(/fonts/', `url(${BASE}/fonts/`) : fontCss) + '\n' + css);
 write('assets/site.js', readFileSync(join(root, 'src/scripts/site.js'), 'utf8'));
 
 // --- assets e fontes ---
@@ -65,6 +73,6 @@ write(
   'sitemap.xml',
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${site.siteUrl}${u}</loc></url>`).join('\n')}\n</urlset>\n`
 );
-write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${site.siteUrl}/sitemap.xml\n`);
+write('robots.txt', NOINDEX ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: ${site.siteUrl}/sitemap.xml\n`);
 
 console.log(`dist: ${pages.length} páginas + 404`);
